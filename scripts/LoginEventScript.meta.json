@@ -1,0 +1,12 @@
+{
+  "event": {
+    "scriptSystemId": 0,
+    "scriptKey": "",
+    "appSpace": "",
+    "description": "Login handler",
+    "deviceAddress": "",
+    "moveletKey": "com.movilizer.ps.login",
+    "moveletKeyExt": "",
+    "scriptTriggers": "ONLINECONTAINER_RECEIVED"
+  }
+}

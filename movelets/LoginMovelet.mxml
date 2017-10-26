@@ -1,0 +1,16 @@
+<MovilizerRequest requestTrackingKey="" systemId="${#Project#SystemID}"
+                  systemPassword="${#Project#Password}"
+                  useAutoAcknowledge="true" xmlns="http://movilitas.com/movilizer/v15">
+
+    <moveletSet>
+        <movelet moveletKey="com.movilizer.ps.login" initialQuestionKey=""
+                 onlineSyncCallbackEndpoint="">
+            <question key="" type="">
+                <answer key="" nextQuestionKey=""></answer>
+            </question>
+            <name></name>
+        </movelet>
+        <participant participantKey="1" name="Test participant"
+                     deviceAddress="${#Project#TestDeviceAddress}"></participant>
+    </moveletSet>
+</MovilizerRequest>

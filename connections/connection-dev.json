@@ -1,0 +1,15 @@
+{
+  "all": [
+    {
+      "auth_token": "secretToken",
+      "password": "secretPass",
+      "systemId": 10000,
+      "url": "https://demo.movilizer.com/MovilizerDistributionService"
+    }
+  ],
+
+  "default": {
+    "systemId": 10000,
+    "url": "https://demo.movilizer.com/MovilizerDistributionService"
+  }
+}

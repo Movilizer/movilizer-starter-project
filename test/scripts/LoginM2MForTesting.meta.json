@@ -1,0 +1,12 @@
+{
+  "event": {
+    "scriptSystemId": 0,
+    "scriptKey": "",
+    "appSpace": "M2M",
+    "description": "Test for the login library",
+    "deviceAddress": "",
+    "moveletKey": "com.movilizer.ps.login.test",
+    "moveletKeyExt": "",
+    "scriptTriggers": "DATACONTAINER_RECEIVED"
+  }
+}

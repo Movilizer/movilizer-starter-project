@@ -1,0 +1,13 @@
+{
+  "endpoint": {
+    "webservice": "https://demo.movilizer.com/MovilizerDistributionService/WebService",
+    "m2m": "https://demo.movilizer.com/MovilizerDistributionService/m2m",
+    "systemId": "",
+    "password": "",
+    "authToken": ""
+  },
+  "participant": {
+    "deviceAddress": "@m2m.ps.test@movilizer.com",
+    "password": "ahbiggvexgbm1"
+  }
+}

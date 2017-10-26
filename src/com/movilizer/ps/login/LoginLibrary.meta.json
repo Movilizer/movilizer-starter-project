@@ -1,0 +1,8 @@
+{
+  "library": {
+    "scriptSystemId": 0,
+    "description": "Login handling library",
+    "name": "com.movilizer.ps.login.LoginLibrary",
+    "public": false
+  }
+}
