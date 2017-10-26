@@ -75,15 +75,15 @@ class LoginLibraryE2ETest {
     }
 
     private static String extractLoginSuccess(Map mafResponse) throws Exception {
-        mafResponse.ENTRIES.ENTRIES[LoginLibrary.RESPONSE_FIELD_SUCCESS][0]
+        mafResponse.ENTRIES[1].ENTRIES[2][LoginLibrary.RESPONSE_FIELD_SUCCESS]
     }
 
     private static String extractLoginCode(Map mafResponse) throws Exception {
-        mafResponse.ENTRIES.ENTRIES[LoginLibrary.RESPONSE_FIELD_CODE][0]
+        mafResponse.ENTRIES[1].ENTRIES[1][LoginLibrary.RESPONSE_FIELD_CODE]
     }
 
     private static String extractLoginMessage(Map mafResponse) throws Exception {
-        mafResponse.ENTRIES.ENTRIES[LoginLibrary.RESPONSE_FIELD_MESSAGE][0]
+        mafResponse.ENTRIES[1].ENTRIES[0][LoginLibrary.RESPONSE_FIELD_MESSAGE]
     }
 
     private static MAFGenericUploadDataContainer createRequestDataContainer(
